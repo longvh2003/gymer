@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>List Cart</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../Css/list-cart.css">
+	<link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body>
+	<div class="group1 row">
+		<span class="home"><button type="button" class="black">Zadel</button></span>
+		<span class="event"><button type="button" class="black">Home</button></span>
+		<span class="event"><button type="button" class="black">Our Services</button></span>
+		<span class="event"><button type="button" class="black">Event</button></span>
+		<span class="event"><button type="button" class="black">Location</button></span>
+		<span class="event"><button type="button" class="black">Coach</button></span>
+		<span class="event bag"><a href="#"><img src="../Image/list-cart/bag.png"></a></span>
+	</div>
+	<div class="container">
+		<div class="row group2">
+			<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1">
+				<div ng-click="remove()" class="remove">X</div>
+			</div>
+			<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3">
+				<img class="group2-img" src="../Image/list-cart/group2-1.png">
+			</div>
+			<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-fluid-4 group2-big-content">
+				Yoga DIY - Lunging, foot & knee alignment and breathing
+			</div>
+			<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-fluid-2 total">
+				<div class="group2-small-content">Number of person:</div>
+				<div class="row">
+					<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3"><button class="sub" ng-click="sub()">-</button></div>
+					<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-fluid-6 number" ng-model="number"><div class="x">1</div></div>
+					<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3"><button class="plus" ng-click="plus()">+</button></div>
+				</div>
+			</div>
+			<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1"></div>
+			<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1">
+				<div class="price">$56</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row group2">
+			<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1">
+				<div class="remove">X</div>
+			</div>
+			<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3">
+				<img class="group2-img" src="../Image/list-cart/group2-2.png">
+			</div>
+			<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-fluid-4 group2-big-content">
+				Yoga DIY - Lunging, foot & knee alignment and breathing
+			</div>
+			<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-fluid-2 total">
+				<div class="group2-small-content">Number of person:</div>
+				<div class="row">
+					<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3"><button class="sub">-</button></div>
+					<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-fluid-6 number" ng-model="number"><div class="x">1</div></div>
+					<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3"><button class="plus">+</button></div>
+				</div>
+			</div>
+			<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1"></div>
+			<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1">
+				<div class="price">$56</div>
+			</div>
+		</div>
+		<div>
+			<button class="btn-check">Check out</button>
+		</div>
+	</div>
+	<div class="container-group3">
+		<div class="row group3-bg">
+			<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1"></div>
+			<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3">
+				<div class="big-content3">ABOUT US</div>
+				<div class="small-content3">Is Lasik in your future?</div>
+				<div class="small-content3">Millions of Americans turn to Lasik Surgery when their vision is less than perfect and they’re tired of being tied down to wearing glasses or contacts. What part of the eye is it that may be causing all your vision trouble? Your cornea! When the shape of your cornea is irregular, the image on your retina is blurry and out-of-focus.
+				</div>
+				<div>
+					<span><a href="#"><img src="../Image/services-cate/twitter2.png"></a></span>
+					<span><a href="#"><img src="../Image/services-cate/youtube2.png"></a></span>
+					<span><a href="#"><img src="../Image/services-cate/facebook2.png"></a></span>
+				</div>
+			</div>
+			<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3">
+				<div class="big-content3">Recent Events</div>
+				<div class="small-content3-2">March 2020</div>
+				<div class="small-content3-2">April 2020</div>
+				<div class="small-content3-2">May 2020</div>
+				<div class="small-content3-2">June 2020</div>
+				<div class="small-content3-2">July 2020</div>
+				<div class="small-content3-2">August 2020</div>
+			</div>
+			<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-fluid-4">
+				<div class="big-content3">Contact</div>
+				<div class="ip"><input type="text" placeholder="Name..."></div>
+				<div class="ip"><input  type="email" placeholder="Email..."></div>
+				<div class="ip"><input  type="text" placeholder="Comment..."></div>
+				<div><button type="button" class="btn3">Sent Messenger</button></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

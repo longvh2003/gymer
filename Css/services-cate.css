@@ -1,0 +1,146 @@
+.group1{
+  background-image: url(../Image/services-cate/group1.png);
+  height: 670px;
+  margin: 0;
+}
+.home{
+  margin: 29px 420px 0 147px;
+	width: 100px;
+  height: 42px;
+  font-family: YesevaOne;
+  font-size: 36px;
+  color: var(--white);
+  background:none;
+}
+.event{
+  font-family: Cabin;
+	margin: 41px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: normal;
+}
+.bag{
+	margin:38px 15px;
+	width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.orange{
+	color: #ff6900;
+  background:none;
+  border: none;
+}
+.white{
+	color: #ffffff;
+  background:none;
+  border: none;
+}
+.event button:hover{
+  color: #ff6900;
+}
+.reangle{
+  width: 98%;
+}
+.md-content{
+  margin: 20px 0 10px 20px;
+  width: 33px;
+  height: 19px;
+  font-family: Cabin;
+  font-size: 16px;
+  color: #ff6900;
+}
+.big-content{
+  margin:10px 0 10px 20px;
+  height: 37px;
+  font-family: Cabin;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+}
+.sm-content{
+  margin:0px 20px 10px 20px;
+  font-family: Cabin;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #464646;
+  width: 300px;
+}
+.icon{
+  margin-left: 40px;
+}
+.oval{
+  margin-left: -20px;
+}
+.price{
+  width: 40px;
+  height: 29px;
+  font-family: Cabin;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff6900;
+  margin-left: 125px;
+}
+.btn{
+  width: 68px;
+  height: auto;
+  background-color: #ff6900;
+  font-family: Cabin;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--white);
+  margin: 30px 0 20px 135px;
+}
+.img{
+  width: 110%;
+  margin-left: -4px;
+}
+.container-group3{
+  margin: 75px 0 0 12px;
+  color: #ffffff;
+  width: 98%;
+}
+.group3-bg{
+  background-color: #000000;
+}
+.big-content3{
+  width: 200px;
+  height: 28px;
+  font-family: YesevaOne;
+  font-size: 24px;
+  margin-top: 50px;
+}
+.small-content3{
+  color: #cfcfcf;
+  width: 260px;
+  font-family: Cabin;
+  font-size: 14px;
+  margin:20px 0;
+}
+.small-content3-2{
+  color: #cfcfcf;
+  width: 260px;
+  font-family: Cabin;
+  font-size: 14px;
+  margin:20px 0 -10px 0;
+}
+.container-group3 input{
+  width: 363px;
+  height: 44px;
+  border-radius: 3px;
+  border: solid 1px #979797;
+  background-color: #000000;
+  padding: 5px;
+  font-size: 10px;
+  margin-top: 25px;
+}
+.btn3{
+  width: 363px;
+  height: 44px;
+  border-radius: 3px;
+  background-color: #ff6900;
+  margin: 25px 0 50px 0;
+  border:1px solid #000000;
+  color: #ffffff;
+  text-align: center;
+}

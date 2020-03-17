@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event Pop-up</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../Css/event-popup.css">
+	<link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="group1 row">
+		<span class="home"><button type="button" class="white">Zadel</button></span>
+		<span class="event"><button type="button" class="white">Home</button></span>
+		<span class="event"><button type="button" class="white">Our Services</button></span>
+		<span class="event"><button type="button" class="orange">Event</button></span>
+		<span class="event"><button type="button" class="white">Location</button></span>
+		<span class="event"><button type="button" class="white">Coach</button></span>
+		<span class="event"><a class="white" href="#"><img src="../Image/list-event/bag.png"></a></span>
+	</div>
+	<div class="container group2">
+		<div class="group2-big-content">SEARCH EVENT</div>
+		<div class="row">
+			<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3">
+				<select class="group2-select">
+					<option>Select Category</option>
+				</select>
+			</div>
+			<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3">
+				<select class="group2-select">
+					<option>Location</option>
+				</select>
+			</div>
+			<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3">
+				<select class="group2-select">
+					<option>Coach</option>
+				</select>
+			</div>
+			<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3">
+				<button class="group2-btn">Search</button>
+			</div>
+		</div>
+		<div class="row group3">
+			<div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-fluid-10">
+				<div class="row">
+					<div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 col-fluid-5">
+						<img src="../Image/list-event/group3-1.png" class="group3-img">
+					</div>
+					<div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 col-fluid-7">
+						<input type="button" class="group3-btn" value="05 Dec 2020">
+						<input type="button" class="group3-btn" value="29 Jun 2020">
+						<div class="big-content2">Yoga DIY - Lunging, foot & knee alignment and breathing</div>
+						<div class="row">
+							<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-fluid-4">
+								<img src="../Image/home/user.png"><span class="small-content">Capacity: 5/20</span>
+							</div>
+							<div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 col-fluid-8">
+								<img src="../Image/home/placeholder.png"><span class="small-content"> 415 Temple Lane, Antioch, CA 94509</span>
+							</div>
+						</div>
+						<div class="small-content2"><img src="../Image/home/clock.png">March 2, 2020 - March 20, 2020 6:00 am - 7:30 am , March 11, 2020 - March 26, 2020 5:00 am - 6:30 am</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-fluid-2 container-price">
+				<div class="price">$56</div>
+				<button class="detail" id="myBtn">Details</button>
+			</div>
+		</div>
+		<div class="row group3">
+			<div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-fluid-10">
+				<div class="row">
+					<div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 col-fluid-5">
+						<img src="../Image/list-event/group3-2.png" class="group3-img">
+					</div>
+					<div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 col-fluid-7">
+						<input type="button" class="group3-btn" value="25 Sep 2020">
+						<input type="button" class="group3-btn" value="15 Apr 2020">
+						<div class="big-content2">Yoga DIY - Lunging, foot & knee alignment and breathing</div>
+						<div class="row">
+							<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-fluid-4">
+								<img src="../Image/home/user.png"><span class="small-content">Capacity: 5/20</span>
+							</div>
+							<div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 col-fluid-8">
+								<img src="../Image/home/placeholder.png"><span class="small-content"> 415 Temple Lane, Antioch, CA 94509</span>
+							</div>
+						</div>
+						<div class="small-content2"><img src="../Image/home/clock.png">March 2, 2020 - March 20, 2020 6:00 am - 7:30 am , March 11, 2020 - March 26, 2020 5:00 am - 6:30 am</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-fluid-2 container-price">
+				<div class="price">$56</div>
+				<button class="detail" id="myBtn">Details</button>
+			</div>
+		</div>
+		<div class="row group3">
+			<div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-fluid-10">
+				<div class="row">
+					<div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 col-fluid-5">
+						<img src="../Image/list-event/group3-3.png" class="group3-img">
+					</div>
+					<div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 col-fluid-7">
+						<input type="button" class="group3-btn" value="28 Jun 2020">
+						<input type="button" class="group3-btn" value="16 Jun 2020">
+						<div class="big-content2">Yoga DIY - Lunging, foot & knee alignment and breathing</div>
+						<div class="row">
+							<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-fluid-4">
+								<img src="../Image/home/user.png"><span class="small-content">Capacity: 5/20</span>
+							</div>
+							<div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 col-fluid-8">
+								<img src="../Image/home/placeholder.png"><span class="small-content"> 415 Temple Lane, Antioch, CA 94509</span>
+							</div>
+						</div>
+						<div class="small-content2"><img src="../Image/home/clock.png">March 2, 2020 - March 20, 2020 6:00 am - 7:30 am , March 11, 2020 - March 26, 2020 5:00 am - 6:30 am</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-fluid-2 container-price">
+				<div class="price">$56</div>
+				<button class="detail" id="myBtn">Details</button>
+			</div>
+		</div>
+		<div class="row group3">
+			<div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-fluid-10">
+				<div class="row">
+					<div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 col-fluid-5">
+						<img src="../Image/list-event/group3-4.png" class="group3-img">
+					</div>
+					<div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 col-fluid-7">
+						<input type="button" class="group3-btn" value="06 Jan 2020">
+						<input type="button" class="group3-btn" value="08 Apr 2020">
+						<div class="big-content2">Yoga DIY - Lunging, foot & knee alignment and breathing</div>
+						<div class="row">
+							<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-fluid-4">
+								<img src="../Image/home/user.png"><span class="small-content">Capacity: 5/20</span>
+							</div>
+							<div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 col-fluid-8">
+								<img src="../Image/home/placeholder.png"><span class="small-content"> 415 Temple Lane, Antioch, CA 94509</span>
+							</div>
+						</div>
+						<div class="small-content2"><img src="../Image/home/clock.png">March 2, 2020 - March 20, 2020 6:00 am - 7:30 am , March 11, 2020 - March 26, 2020 5:00 am - 6:30 am</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-fluid-2 container-price">
+				<div class="price">$56</div>
+				<button class="detail" id="myBtn">Details</button>
+			</div>
+		</div>
+		<div class="row group3">
+			<div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-fluid-10">
+				<div class="row">
+					<div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 col-fluid-5">
+						<img src="../Image/list-event/group3-5.png" class="group3-img">
+					</div>
+					<div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 col-fluid-7">
+						<input type="button" class="group3-btn" value="13 Jun 2020">
+						<input type="button" class="group3-btn" value="10 Apr 2020">
+						<div class="big-content2">Yoga DIY - Lunging, foot & knee alignment and breathing</div>
+						<div class="row">
+							<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-fluid-4">
+								<img src="../Image/home/user.png"><span class="small-content">Capacity: 5/20</span>
+							</div>
+							<div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 col-fluid-8">
+								<img src="../Image/home/placeholder.png"><span class="small-content"> 415 Temple Lane, Antioch, CA 94509</span>
+							</div>
+						</div>
+						<div class="small-content2"><img src="../Image/home/clock.png">March 2, 2020 - March 20, 2020 6:00 am - 7:30 am , March 11, 2020 - March 26, 2020 5:00 am - 6:30 am</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-fluid-2 container-price">
+				<div class="price">$56</div>
+				<button class="detail" id="myBtn">Details</button>
+			</div>
+		</div>
+	</div>
+	<div class="container-group4">
+		<div class="row group4-bg">
+			<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1"></div>
+			<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3">
+				<div class="big-content4">ABOUT US</div>
+				<div class="small-content4">Is Lasik in your future?</div>
+				<div class="small-content4">Millions of Americans turn to Lasik Surgery when their vision is less than perfect and they’re tired of being tied down to wearing glasses or contacts. What part of the eye is it that may be causing all your vision trouble? Your cornea! When the shape of your cornea is irregular, the image on your retina is blurry and out-of-focus.
+				</div>
+				<div>
+					<span><a href="#"><img src="../Image/home/twitter2.png"></a></span>
+					<span><a href="#"><img src="../Image/home/youtube2.png"></a></span>
+					<span><a href="#"><img src="../Image/home/facebook2.png"></a></span>
+				</div>
+			</div>
+			<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3">
+				<div class="big-content4">Recent Events</div>
+				<div class="small-content4-2">March 2020</div>
+				<div class="small-content4-2">April 2020</div>
+				<div class="small-content4-2">May 2020</div>
+				<div class="small-content4-2">June 2020</div>
+				<div class="small-content4-2">July 2020</div>
+				<div class="small-content4-2">August 2020</div>
+			</div>
+			<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-fluid-4">
+				<div class="big-content4">Contact</div>
+				<div class="ip"><input type="text" placeholder="Name..."></div>
+				<div class="ip"><input  type="email" placeholder="Email..."></div>
+				<div class="ip"><input  type="text" placeholder="Comment..."></div>
+				<div><button type="button" class="btn4">Sent Messenger</button></div>
+			</div>
+		</div>
+	</div>
+	<div id="myModal" class="modal">
+		<div class="modal-content">
+		    <div class="modal-img">
+		    	<img src="../Image/event-popup/group1.png">
+		    	<div class="close">&times;</div>
+		    </div>
+		    <div class="modal-group1 row">
+		    	<span><button class="modal-btn">05 Dec 2020</button></span>
+		    	<span><button class="modal-btn">05 Dec 2020</button></span>
+		    	<span class="modal-price">$56</span>
+		    </div>
+		    <div class="container">
+		    	<div class="row">
+		    		<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-fluid-12">
+		    			<div class="modal-title">Yoga DIY - Lunging, foot & knee alignment and breathing</div>
+		    		</div>
+		    		<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-fluid-2">
+		    			<div class="modal-group2">
+		    				<span><img src="../Image/event-popup/user.png"></span>
+		    				<span class="modal-sm-content">Capacity: 5/20</span>
+		    			</div>
+		    		</div>
+		    		<div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-fluid-10">
+		    			<div class="modal-group2">
+		    				<span><img src="../Image/event-popup/placeholder.png"></span>
+		    				<span class="modal-sm-content">415 Temple Lane, Antioch, CA 94509</span>
+		    			</div>
+		    		</div>
+		    		<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-fluid-12">
+		    			<div class="modal-group2">
+		    				<span><img src="../Image/event-popup/clock.png"></span>
+		    				<span class="modal-sm-content">March 2, 2020 - March 20, 2020 6:00 am - 7:30 am , March 11, 2020 - March 26, 2020 5:00 am - 6:30 am</span>
+		    			</div>
+		    		</div>
+		    		<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-fluid-12 modal-big-content bold">
+		    			About this event
+		    		</div>
+		    		<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-fluid-12 modal-sm-content modal-bot">
+		    			More and more people are opting to live the herbal life: moving away from chemicals and scientific medicines, and taking traditional herbs to do everything from losing weight to relieving pain. They are often remedies that have been used in communities for hundreds or even thousands of years, and have now been taken for sale worldwide because of the people’s claims about their powers.
+		    		</div>
+		    		<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-fluid-2">
+						<button class="modal-btn-slide" onclick="plusDivs(+1)">&#10094;</button>
+						</div>
+						<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-fluid-2 mySlides">
+							<a href="#"><img src="../Image/event-popup/group2-1.png" class="modal-group3-img"></a>
+						</div>
+						<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-fluid-2 mySlides">
+							<a href="#"><img src="../Image/event-popup/group2-2.png" class="modal-group3-img"></a>
+						</div>
+						<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-fluid-2 mySlides">
+							<a href="#"><img src="../Image/event-popup/group2-3.png" class="modal-group3-img"></a>
+						</div>
+						<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-fluid-2 mySlides">
+							<a href="#"><img src="../Image/event-popup/group2-4.png" class="modal-group3-img"></a>
+						</div>
+						<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-fluid-2 mySlides2">
+							<a href="#"><img src="../Image/event-popup/group2-1.png" class="modal-group3-img"></a>
+						</div>
+						<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-fluid-2 mySlides2">
+							<a href="#"><img src="../Image/event-popup/group2-2.png" class="modal-group3-img"></a>
+						</div>
+						<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-fluid-2 mySlides2">
+							<a href="#"><img src="../Image/event-popup/group2-3.png" class="modal-group3-img"></a>
+						</div>
+						<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-fluid-2 mySlides2">
+							<a href="#"><img src="../Image/event-popup/group2-4.png" class="modal-group3-img"></a>
+						</div>
+			  		<button class="modal-btn-slide modal-right" onclick="plusDivs(-1)">&#10095;</button>
+			  		<div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 col-fluid-7 modal-top modal-group4">
+			  			<div class="modal-big-content">Select trainer:</div>
+			  			<div class="row">
+			  				<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3">
+			  					<div><img class="modal-oval" src="../Image/event-popup/group3-1.png"></div>
+			  					<div class="small-content">Pauline Ruiz</div>
+			  				</div>
+			  				<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3">
+			  					<div><img class="modal-oval" src="../Image/event-popup/group3-2.png"></div>
+			  					<div class="small-content">Isabelle Delgado</div>
+			  				</div>
+			  				<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3">
+			  					<div><img class="modal-oval" src="../Image/event-popup/group3-3.png"></div>
+			  					<div class="small-content">Estella Osborne</div>
+			  				</div>
+			  				<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3">
+			  					<div><img class="modal-oval" src="../Image/event-popup/group3-4.png"></div>
+			  					<div class="small-content">Janie Sherman</div>
+			  				</div>
+			  			</div>
+			  		</div>
+			  		<div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 col-fluid-5 modal-top">
+			  			<div class="modal-big-content">Select time</div>
+			  			<div class="row">
+			  				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-fluid-6">
+			  					<button class="modal-btn-time">06:00-07:30 AM</button>
+			  				</div>
+			  				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-fluid-6">
+			  					<button class="modal-btn-time">06:00-07:30 AM</button>
+			  				</div>
+			  				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-fluid-6">
+			  					<button class="modal-btn-time">06:00-07:30 AM</button>
+			  				</div>
+			  				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-fluid-6">
+			  					<button class="modal-btn-time">06:00-07:30 AM</button>
+			  				</div>
+			  			</div>
+			  			<div class="modal-big-content">
+			  				Number of person:
+			  			</div>
+			  			<div class="row modal-nop">
+			  				<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1 modal-sub">-</div>
+				  			<div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-fluid-10">1</div>
+				  			<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1 modal-plus"><div>+</div></div>
+			  			</div>
+			  		</div>
+		    	</div>
+		    </div>
+		    <div class="modal-group5">
+		    	<button class="modal-group5-btn">BOOK NOW</button>
+		    </div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var modal = document.getElementById("myModal");
+		var btn = document.getElementById("myBtn");
+		var span = document.getElementsByClassName("close")[0];
+		btn.onclick = function() {
+		  modal.style.display = "block";
+		}
+		span.onclick = function() {
+		  modal.style.display = "none";
+		}
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+		    modal.style.display = "none";
+		  }
+		}
+	</script>
+	<script type="text/javascript">
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  var y = document.getElementsByClassName("mySlides2")
+		  if (n > x.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < y.length; i++) {
+		    y[i].style.display = "none";  
+		  }
+		  for (i = 0; i < x.length; i++) {
+		    x[i].style.display = "inline";  
+		  }
+		  for (i = 0; i < slideIndex - 1; i++) {
+		    x[i].style.display = "none";  
+		  }
+		  for (i = 0; i < slideIndex - 1; i++){
+		    y[i].style.display = "inline";
+		  }
+		}
+	</script>
+</body>
+</html>

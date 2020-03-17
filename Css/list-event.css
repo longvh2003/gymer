@@ -19,12 +19,6 @@
   font-weight: bold;
   letter-spacing: normal;
 }
-.bag{
-	margin:25px 0;
-	width: 24px;
-  height: 24px;
-  object-fit: contain;
-}
 .orange{
 	color: #ff6900;
   background:none;

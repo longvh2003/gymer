@@ -13,21 +13,43 @@
 </head>
 <body>
 	<div class="group1 row">
-		<span class="home"><button type="button" class="black" onclick="window.location.href = 'index.html';">Zadel</button></span>
-		<span class="event"><button type="button" class="orange" onclick="window.location.href = 'index.html';">Home</button></span>
-		<span class="event"><button type="button" class="black" onclick="window.location.href = 'services-cate.html';">Our Services</button></span>
-		<span class="event"><button type="button" class="black" onclick="window.location.href = 'event-popup+list-event.html';">Event</button></span>
-		<span class="event"><button type="button" class="black">Location</button></span>
-		<span class="event"><button type="button" class="black" onclick="window.location.href = 'coach.html';">Coach</button></span>
-		<span class="event bag"><a class="white" href="list-cart.html"><img src="Image/home/bag.png"></a></span>
-		<div><img src="Image/home/group1.png"></div>
+		<div class="header">
+			<nav class="navbar navbar-expand-lg navbar-light">
+			  	<a class="navbar-brand home" href="index.html">Zadel</a>
+			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    	<span class="navbar-toggler-icon"></span>
+			  	</button>
+			  	<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+			    	<ul class="navbar-nav justify-content-end">
+			      		<li class="nav-item">
+			        		<a class="nav-link event" href="index.html">Home <span class="sr-only">(current)</span></a>
+			      		</li>
+				      	<li class="nav-item">
+				      		<a class="nav-link event" href="services-cate.html">Our Service</a>
+				     	 </li>
+				      	<li class="nav-item">
+				        	<a class="nav-link event" href="event-popup+list-event.html">Event</a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link event" href="">Location</a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link event" href="coach.html">Coach</a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link event" href="list-cart.html"><img src="Image/home/bag.png"></a>
+				      	</li>
+				    </ul>
+				  </div>
+			</nav>
+		</div>
 	</div>
 	<div class="container group2">
 		<div class="row">
 			<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-fluid-6 ">
 				<div class="row group2-1">
-					<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-fluid-6 group2-img">
-					<img src="Image/payment/group1.png">
+					<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-fluid-6">
+					<img class="group2-img" src="Image/payment/group1.png">
 					</div>
 					<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-fluid-6">
 						<div class="lg-content">
@@ -36,10 +58,12 @@
 						<div class="sm-content">
 							Number of person:
 						</div>
-						<div class="nop row">
-							<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3 sub"><div class="char">-</div></div>
-							<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-fluid-6 "><div class="char">1</div></div>
-							<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3 plus"><div class="char">+</div></div>
+						<div>
+							<div class="row">
+								<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1"><div class="sub">-</div></div>
+								<div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 col-fluid-5"><div class="number">1</div></div>
+								<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1"><div class="plus">+</div></div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -98,10 +122,10 @@
 					<div class="sm-content2">Payment:</div>
 					<div class="row">
 						<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-fluid-6">
-							<div class="payment1"><button class="payment2"><img src="Image/payment/group2-1.png"></button></div>
+							<div class="payment1"><button class="payment2"><img class="payment-img" src="Image/payment/group2-1.png"></button></div>
 						</div>
 						<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-fluid-6">
-							<div class="payment1"><button class="payment2"><img src="Image/payment/group2-2.png"></button></div>
+							<div class="payment1"><button class="payment2"><img class="payment-img" src="Image/payment/group2-2.png"></button></div>
 						</div>
 					</div>
 				</div>

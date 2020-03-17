@@ -1,27 +1,24 @@
 .group1{
   margin: 0;
 }
+.group1-img{
+  width: 100%;
+}
+.header{
+  width: 100%;
+}
 .home{
-  margin: 29px 420px 0 147px;
-  width: 100px;
-  height: 42px;
   font-family: YesevaOne;
   font-size: 36px;
   color: var(--white);
   background:none;
+  margin: 20px 100px;
 }
 .event{
   font-family: Cabin;
-  margin: 41px 20px;
   font-size: 16px;
   font-weight: bold;
   letter-spacing: normal;
-}
-.bag{
-  margin: 38px 15px;
-  width: 24px;
-  height: 24px;
-  object-fit: contain;
 }
 .orange{
   color: #ff6900;
@@ -37,54 +34,45 @@
   color: #ff6900;
 }
 .title{
-  width: 508px;
-  height: 44px;
   font-family: Cabin;
   font-size: 36px;
   font-weight: bold;
-  text-align: center;
   color: #000000;
   left: 50%;
   transform: translate(-50%);
   position: relative;
   margin: 30px 0 20px 0;
+  text-align: center;
 }
 .logo{
-  margin-left: 100px;
-  width: 80px;
-  height: 80px;
   object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
 }
 .big-content{
-  width: 268px;
-  height: 57px;
   font-family: Cabin;
   font-size: 20px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.5;
-  letter-spacing: normal;
   text-align: center;
   color: #000000;
 }
 .small-content{
-  width: 268px;
-  height: 96px;
   font-family: Cabin;
   font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.71;
-  letter-spacing: normal;
   text-align: center;
   color: #464646;
   margin-bottom: 10px;
 }
 .group2{
-  width: 35%;
-  margin-left: -35px;
+  transform: translate(1%,0);
+}
+.group2-img{
+  width: 33%;
+  display: inline;
 }
 .text{
   color: #ffffff;
@@ -101,39 +89,31 @@
 .text3{
   left: 79%;
 }
-.absolute{
-  position: absolute;
-}
-.top{
-  margin-top: 300px;
-}
 .group3{
   background-color: #b2bec3;
 }
-.group3-extra{
+.group3-img{
   object-fit: contain;
-  transform: translate(125%);
-}
-.group3-main{
-  object-fit: contain;
-  transform: translate(25%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
 }
 .group4{
   margin-bottom: 10px;
 }
+.group4-img{
+  width: 100%;
+}
 .btn{
   background-color: #00379c;
   color: #ffffff;
-  width: 126px;
-  height: 44px;
   font-family: Cabin;
   font-size: 16px;
   font-weight: bold;
   text-align: center;
 }
 .big-content2{
-  width: 561px;
-  height: 32px;
   font-family: Cabin;
   font-size: 20px;
   font-weight: bold;
@@ -142,8 +122,6 @@
   margin: 20px 0;
 }
 .small-content2{
-  width: 545px;
-  height: 48px;
   font-family: Cabin;
   font-size: 14px;
   line-height: 1.71;
@@ -154,16 +132,12 @@
   transform: translate(20%,60%);
 }
 .price{
-  width: 46px;
-  height: 25px;
   font-family: Cabin;
   font-size: 20px;
   font-weight: bold;
   color: #ff6900;
 }
 .detail{
-  width: 60px;
-  height: 26px;
   border-radius: 18px;
   border: solid 1px #ff6900;
   background-color: #ffffff;
@@ -177,18 +151,18 @@
 }
 .group5-theme{
   width:24%; 
-  height: 325px;
+  height: 100%;
   border-radius: 5px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.16);
   background-color: #ffffff;
-  margin-left: -40px;
-  margin-right: 70px;
 }
 .group5-img{
-  width: 120%;
+  width: 100%;
   object-fit: contain;
   border-radius: 5px;
-  margin-left: -15px;
+}
+.group5-img-2{
+  margin-bottom: 20px;
 }
 .big-content5{
   font-family: Cabin;
@@ -218,11 +192,11 @@
   height: 30px;
   color: #ff6900;
   background-color: #ffffff;
-  transform: translate(270%,450%);
   border-radius: 15px;
+  transform: translate(0%,450%);
 }
 .right{
-  margin-left: -130px;
+  transform: translate(20%,450%);
 }
 .container-group6{
   color: #ffffff;
@@ -233,29 +207,24 @@
   background-color: #000000;
 }
 .big-content6{
-  width: 200px;
-  height: 28px;
   font-family: YesevaOne;
   font-size: 24px;
   margin-top: 50px;
 }
 .small-content6{
   color: #cfcfcf;
-  width: 260px;
   font-family: Cabin;
   font-size: 14px;
   margin:20px 0;
 }
 .small-content6-2{
   color: #cfcfcf;
-  width: 260px;
   font-family: Cabin;
   font-size: 14px;
   margin:20px 0 -10px 0;
 }
 .container-group6 input{
-  width: 363px;
-  height: 44px;
+  width: 100%;
   border-radius: 3px;
   border: solid 1px #979797;
   background-color: #000000;
@@ -265,8 +234,7 @@
   color: #ffffff;
 }
 .btn6{
-  width: 363px;
-  height: 44px;
+  width: 100%;
   border-radius: 3px;
   background-color: #ff6900;
   margin: 25px 0 50px 0;

@@ -14,18 +14,41 @@
 </head>
 <body>
 	<div class="group1 row">
-		<span class="home"><button type="button" class="black" onclick="window.location.href = 'index.html';">Zadel</button></span>
-		<span class="event"><button type="button" class="black" onclick="window.location.href = 'index.html';">Home</button></span>
-		<span class="event"><button type="button" class="black" onclick="window.location.href = 'services-cate.html';">Our Services</button></span>
-		<span class="event"><button type="button" class="black" onclick="window.location.href = 'event-popup+list-event.html';">Event</button></span>
-		<span class="event"><button type="button" class="black">Location</button></span>
-		<span class="event"><button type="button" class="black" onclick="window.location.href = 'coach.html';">Coach</button></span>
-		<span class="event bag"><a class="white" href="list-cart.html"><img src="Image/list-cart/bag.png"></a></span>
+		<div class="header">
+			<nav class="navbar navbar-expand-lg navbar-light">
+			  	<a class="navbar-brand home" href="index.html">Zadel</a>
+			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    	<span class="navbar-toggler-icon"></span>
+			  	</button>
+			  	<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+			    	<ul class="navbar-nav justify-content-end">
+			      		<li class="nav-item">
+			        		<a class="nav-link event" href="index.html">Home <span class="sr-only">(current)</span></a>
+			      		</li>
+				      	<li class="nav-item">
+				      		<a class="nav-link event" href="services-cate.html">Our Service</a>
+				     	 </li>
+				      	<li class="nav-item">
+				        	<a class="nav-link event" href="event-popup+list-event.html">Event</a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link event" href="">Location</a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link event" href="coach.html">Coach</a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link event" href="list-cart.html"><img src="Image/home/bag.png"></a>
+				      	</li>
+				    </ul>
+				  </div>
+			</nav>
+		</div>
 	</div>
 	<div class="container">
 		<div class="row group2">
 			<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1">
-				<div ng-click="remove()" class="remove">X</div>
+				<div class="remove">X</div>
 			</div>
 			<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3">
 				<img class="group2-img" src="Image/list-cart/group2-1.png">
@@ -33,15 +56,16 @@
 			<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-fluid-4 group2-big-content">
 				Yoga DIY - Lunging, foot & knee alignment and breathing
 			</div>
-			<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-fluid-2 total">
+			<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3 total">
 				<div class="group2-small-content">Number of person:</div>
-				<div class="row">
-					<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3"><button class="sub" ng-click="sub()">-</button></div>
-					<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-fluid-6 number" ng-model="number"><div class="x">1</div></div>
-					<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3"><button class="plus" ng-click="plus()">+</button></div>
+				<div>
+					<div class="row nop">
+						<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1"><div class="sub">-</div></div>
+						<div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 col-fluid-5"><div class="number">1</div></div>
+						<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1"><div class="plus">+</div></div>
+					</div>
 				</div>
 			</div>
-			<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1"></div>
 			<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1">
 				<div class="price">$56</div>
 			</div>
@@ -58,22 +82,23 @@
 			<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-fluid-4 group2-big-content">
 				Yoga DIY - Lunging, foot & knee alignment and breathing
 			</div>
-			<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-fluid-2 total">
+			<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3 total">
 				<div class="group2-small-content">Number of person:</div>
-				<div class="row">
-					<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3"><button class="sub">-</button></div>
-					<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-fluid-6 number" ng-model="number"><div class="x">1</div></div>
-					<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3"><button class="plus">+</button></div>
+				<div>
+					<div class="row">
+						<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1"><div class="sub">-</div></div>
+						<div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 col-fluid-5"><div class="number">1</div></div>
+						<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1"><div class="plus">+</div></div>
+					</div>
 				</div>
 			</div>
-			<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1"></div>
 			<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1">
 				<div class="price">$56</div>
 			</div>
 		</div>
-		<div>
-			<button class="btn-check" onclick="window.location.href = 'payment.html';"">Check out</button>
-		</div>
+	</div>
+	<div>
+		<button class="btn-check" onclick="window.location.href = 'payment.html';">Check out</button>
 	</div>
 	<div class="container-group3">
 		<div class="row group3-bg">
@@ -84,9 +109,9 @@
 				<div class="small-content3">Millions of Americans turn to Lasik Surgery when their vision is less than perfect and they’re tired of being tied down to wearing glasses or contacts. What part of the eye is it that may be causing all your vision trouble? Your cornea! When the shape of your cornea is irregular, the image on your retina is blurry and out-of-focus.
 				</div>
 				<div>
-					<span><a href="#"><img src="Image/services-cate/twitter2.png"></a></span>
-					<span><a href="#"><img src="Image/services-cate/youtube2.png"></a></span>
-					<span><a href="#"><img src="Image/services-cate/facebook2.png"></a></span>
+					<span><a href="#"><img src="Image/home/twitter2.png"></a></span>
+					<span><a href="#"><img src="Image/home/youtube2.png"></a></span>
+					<span><a href="#"><img src="Image/home/facebook2.png"></a></span>
 				</div>
 			</div>
 			<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3">
@@ -94,15 +119,15 @@
 				<div class="small-content3-2">March 2020</div>
 				<div class="small-content3-2">April 2020</div>
 				<div class="small-content3-2">May 2020</div>
-				<div class="small-content3-2">June 2020</div>
+			<div class="small-content3-2">June 2020</div>
 				<div class="small-content3-2">July 2020</div>
 				<div class="small-content3-2">August 2020</div>
 			</div>
 			<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-fluid-4">
 				<div class="big-content3">Contact</div>
-				<div class="ip"><input type="text" placeholder="Name..."></div>
-				<div class="ip"><input  type="email" placeholder="Email..."></div>
-				<div class="ip"><input  type="text" placeholder="Comment..."></div>
+				<div ><input type="text" placeholder="Name..."></div>
+				<div ><input  type="email" placeholder="Email..."></div>
+				<div ><input  type="text" placeholder="Comment..."></div>
 				<div><button type="button" class="btn3">Sent Messenger</button></div>
 			</div>
 		</div>

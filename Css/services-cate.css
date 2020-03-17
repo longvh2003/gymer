@@ -1,69 +1,76 @@
 .group1{
   background-image: url(../Image/services-cate/group1.png);
-  height: 670px;
+  height: 600px;
+  width: 100%;
   margin: 0;
 }
+.group1{
+  margin: 0;
+}
+.group1-img{
+  width: 100%;
+}
+.header{
+  width: 100%;
+}
 .home{
-  margin: 29px 420px 0 147px;
-	width: 100px;
-  height: 42px;
   font-family: YesevaOne;
   font-size: 36px;
   color: var(--white);
   background:none;
+  margin: 20px 100px;
 }
 .event{
   font-family: Cabin;
-	margin: 41px 20px;
   font-size: 16px;
   font-weight: bold;
   letter-spacing: normal;
 }
 .bag{
-	margin:38px 15px;
-	width: 24px;
+  margin:38px 15px;
+  width: 24px;
   height: 24px;
   object-fit: contain;
 }
 .orange{
-	color: #ff6900;
+  color: #ff6900;
   background:none;
   border: none;
 }
 .white{
-	color: #ffffff;
+  color: #ffffff;
   background:none;
   border: none;
 }
 .event button:hover{
   color: #ff6900;
 }
-.reangle{
+.group3{
   width: 98%;
 }
+.reangle{
+  overflow: hidden;
+  height: 27vw;
+}
 .md-content{
-  margin: 20px 0 10px 20px;
-  width: 33px;
-  height: 19px;
+  margin: 2vw 0 1vw 2vw;
   font-family: Cabin;
   font-size: 16px;
   color: #ff6900;
 }
 .big-content{
-  margin:10px 0 10px 20px;
-  height: 37px;
+  margin: 1vw 0 1vw 2vw;
   font-family: Cabin;
   font-size: 30px;
   font-weight: bold;
   color: #000000;
 }
 .sm-content{
-  margin:0px 20px 10px 20px;
+  margin:0 2vw 1vw 2vw;
   font-family: Cabin;
   font-size: 14px;
   line-height: 1.43;
   color: #464646;
-  width: 300px;
 }
 .icon{
   margin-left: 40px;
@@ -72,8 +79,6 @@
   margin-left: -20px;
 }
 .price{
-  width: 40px;
-  height: 29px;
   font-family: Cabin;
   font-size: 24px;
   font-weight: bold;
@@ -81,7 +86,6 @@
   margin-left: 125px;
 }
 .btn{
-  width: 68px;
   height: auto;
   background-color: #ff6900;
   font-family: Cabin;
@@ -89,7 +93,7 @@
   font-weight: 500;
   text-align: center;
   color: var(--white);
-  margin: 30px 0 20px 135px;
+  margin:0 0 20px 135px;
 }
 .img{
   width: 110%;
@@ -104,29 +108,24 @@
   background-color: #000000;
 }
 .big-content3{
-  width: 200px;
-  height: 28px;
   font-family: YesevaOne;
   font-size: 24px;
   margin-top: 50px;
 }
 .small-content3{
   color: #cfcfcf;
-  width: 260px;
   font-family: Cabin;
   font-size: 14px;
   margin:20px 0;
 }
 .small-content3-2{
   color: #cfcfcf;
-  width: 260px;
   font-family: Cabin;
   font-size: 14px;
   margin:20px 0 -10px 0;
 }
 .container-group3 input{
-  width: 363px;
-  height: 44px;
+  width: 100%;
   border-radius: 3px;
   border: solid 1px #979797;
   background-color: #000000;
@@ -135,8 +134,7 @@
   margin-top: 25px;
 }
 .btn3{
-  width: 363px;
-  height: 44px;
+  width: 100%;
   border-radius: 3px;
   background-color: #ff6900;
   margin: 25px 0 50px 0;

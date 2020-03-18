@@ -13,23 +13,47 @@
 </head>
 <body>
 	<div class="group1 row">
-		<span class="home"><button type="button" class="white" onclick="window.location.href = 'index.html';">Zadel</button></span>
-		<span class="event"><button type="button" class="white" onclick="window.location.href = 'index.html';">Home</button></span>
-		<span class="event"><button type="button" class="orange" onclick="window.location.href = 'services-cate.html';">Our Services</button></span>
-		<span class="event"><button type="button" class="white" onclick="window.location.href = 'event-popup+list-event.html';">Event</button></span>
-		<span class="event"><button type="button" class="white">Location</button></span>
-		<span class="event"><button type="button" class="white" onclick="window.location.href = 'coach.html';">Coach</button></span>
-		<span class="event bag"><a class="white" href="list-cart.html"><img src="Image/services-cate/bag.png"></a></span>
+		<div class="header">
+			<nav class="navbar navbar-expand-lg navbar-dark">
+			  	<a class="navbar-brand home" href="index.html">Zadel</a>
+			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    	<span class="navbar-toggler-icon"></span>
+			  	</button>
+
+			  	<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+			    	<ul class="navbar-nav justify-content-end">
+			      		<li class="nav-item">
+			        		<a class="nav-link event" href="index.html">Home <span class="sr-only">(current)</span></a>
+			      		</li>
+				      	<li class="nav-item">
+				      		<a class="nav-link event" href="services-cate.html">Our Service</a>
+				     	 </li>
+				      	<li class="nav-item">
+				        	<a class="nav-link event" href="event-popup+list-event.html">Event</a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link event" href="">Location</a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link event" href="coach.html">Coach</a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link event" href="list-cart.html"><img src="Image/coach/bag.png"></a>
+				      	</li>
+				    </ul>
+				  </div>
+			</nav>
+		</div>
 	</div>
 	<div class="group2">
 		<div class="group3 container">
 			<div class="group3-1">
 				<div class="row">
-					<div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11 col-fluid-11">
+					<div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-fluid-10">
 						<div class="content org">GYM</div>
 						<div class="title">KILLER CORE</div>
 					</div>
-					<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1">
+					<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-fluid-2">
 						<button class="price">$56</button>
 					</div>
 				</div>
@@ -40,7 +64,7 @@
 						<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-fluid-6">
 							<div class="time">
 								<span class="content">Capacity:</span>
-								<span class="right content">0h</span>
+								<span class="content">0h</span>
 							</div>
 						</div>
 						<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-fluid-6">
@@ -55,25 +79,25 @@
 					<div class="row">
 						<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3 image">
 							<label>
-								<div><img src="Image/services-cate-detail/group2-1.png"></div>
+								<div><img class="group2-img" src="Image/services-cate-detail/group2-1.png"></div>
 								<div class="content">Pauline Ruiz</div>
 							</label>
 						</div>
 						<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3 image">
 							<label>
-								<div><img src="Image/services-cate-detail/group2-2.png"></div>
+								<div><img class="group2-img" src="Image/services-cate-detail/group2-2.png"></div>
 								<div class="content">Pauline Ruiz</div>
 							</label>
 						</div>
 						<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3 image">
 							<label>
-								<div><img src="Image/services-cate-detail/group2-3.png"></div>
+								<div><img class="group2-img" src="Image/services-cate-detail/group2-3.png"></div>
 								<div class="content">Estella Osborne</div>
 							</label>
 						</div>
 						<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3 image">
 							<label>
-								<div><img src="Image/services-cate-detail/group2-4.png"></div>
+								<div><img class="group2-img" src="Image/services-cate-detail/group2-4.png"></div>
 								<div class="content">Janie Sherman</div>
 							</label>
 						</div>
@@ -84,21 +108,24 @@
 						<div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 col-fluid-5 content bold">
 							Select number of persons
 						</div>
-						<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1 content nop sub">-</div>
-						<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-fluid-4 content nop">1</div>
-						<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1 content nop plus">+</div>
+						<div class="row">
+							<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1"><div class="sub">-</div></div>
+							<div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 col-fluid-5"><div class="number">1</div></div>
+							<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1"><div class="plus">+</div></div>
+						</div>
 					</div>
 					<div class="date container">
 						<div class="row month">
-							<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1 content cusor">
-								<div class="center"><</div>
+							<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1 content next">
+								<div class=""><</div>
 							</div>
 							<div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-fluid-10 content bold">JUNE 2020</div>
-							<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1 big-content cusor">
-								<div class="center">></div>
+							<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-fluid-1 content prev">
+								<div class="">></div>
 							</div>
 						</div>
 						<div class="row">
+							<div class="col col-sm col-md col-lg col-xl col-fluid content bold"></div>
 							<div class="col col-sm col-md col-lg col-xl col-fluid content bold">MON</div>
 							<div class="col col-sm col-md col-lg col-xl col-fluid content bold">TUE</div>
 							<div class="col col-sm col-md col-lg col-xl col-fluid content bold">WEB</div>
@@ -106,111 +133,62 @@
 							<div class="col col-sm col-md col-lg col-xl col-fluid content bold">FRI</div>
 							<div class="col col-sm col-md col-lg col-xl col-fluid content bold">SAT</div>
 							<div class="col col-sm col-md col-lg col-xl col-fluid content bold">SUN</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content bold"></div>
 						</div>
 						<div class="row">
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">1</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">2</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">3</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">4</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">5</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">6</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">7</div>
-							</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center"></div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">1</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">2</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">3</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">4</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">5</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">6</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">7</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center"></div>
 						</div>
 						<div class="row">
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">8</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">9</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">10</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">11</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">12</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">13</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">14</div>
-							</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center"></div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">8</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">9</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">10</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">11</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">12</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">13</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">14</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center"></div>
 						</div>
 						<div class="row">
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">15</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">16</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">17</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">18</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">19</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">20</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">21</div>
-							</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center"></div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">15</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">16</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">17</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">18</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">19</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">20</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">21</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center"></div>
 						</div>
 						<div class="row">
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">22</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">23</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">24</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">25</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">26</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">27</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day">28</div>
-							</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center"></div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">22</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">23</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">24</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">25</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">26</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">27</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">28</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center"></div>
 						</div>
 						<div class="row">
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day-last">29</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid content">
-								<div class="day-last">30</div>
-							</div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid md-content"></div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid md-content"></div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid md-content"></div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid md-content"></div>
-							<div class="col col-sm col-md col-lg col-xl col-fluid md-content"></div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center"></div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">29</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center">30</div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center"></div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center"></div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center"></div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center"></div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center"></div>
+							<div class="col col-sm col-md col-lg col-xl col-fluid content center"></div>
 						</div>
 					</div>
 				</div>
@@ -227,9 +205,9 @@
 				<div class="small-content4">Millions of Americans turn to Lasik Surgery when their vision is less than perfect and they’re tired of being tied down to wearing glasses or contacts. What part of the eye is it that may be causing all your vision trouble? Your cornea! When the shape of your cornea is irregular, the image on your retina is blurry and out-of-focus.
 				</div>
 				<div>
-					<span><a href="#"><img src="Image/services-cate-detail/twitter2.png"></a></span>
-					<span><a href="#"><img src="Image/services-cate-detail/youtube2.png"></a></span>
-					<span><a href="#"><img src="Image/services-cate-detail/facebook2.png"></a></span>
+					<span><a href="#"><img src="Image/home/twitter2.png"></a></span>
+					<span><a href="#"><img src="Image/home/youtube2.png"></a></span>
+					<span><a href="#"><img src="Image/home/facebook2.png"></a></span>
 				</div>
 			</div>
 			<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-fluid-3">

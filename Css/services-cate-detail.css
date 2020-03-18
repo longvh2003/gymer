@@ -1,32 +1,44 @@
+.group1{
+  background-image: url(../Image/services-cate-detail/group1.png);
+  height: 600px;
+  width: 100%;
+  margin: 0;
+}
+.group1{
+  margin: 0;
+}
+.group1-img{
+  width: 100%;
+}
+.header{
+  width: 100%;
+}
 .home{
-  margin: 29px 420px 0 147px;
-	width: 100px;
-  height: 42px;
   font-family: YesevaOne;
   font-size: 36px;
   color: var(--white);
   background:none;
+  margin: 20px 100px;
 }
 .event{
   font-family: Cabin;
-	margin: 41px 20px;
   font-size: 16px;
   font-weight: bold;
   letter-spacing: normal;
 }
 .bag{
-	margin:38px 15px;
-	width: 24px;
+  margin:38px 15px;
+  width: 24px;
   height: 24px;
   object-fit: contain;
 }
 .orange{
-	color: #ff6900;
+  color: #ff6900;
   background:none;
   border: none;
 }
 .white{
-	color: #ffffff;
+  color: #ffffff;
   background:none;
   border: none;
 }
@@ -35,14 +47,17 @@
 }
 .group2{
   width: 100%;
-  height: 700px;
+  height: 430px;
   background-color: #f1f1f1;
+  overflow: hidden;
 }
 .group3{
   width: 80%;
   height: auto;
   background-color: #ffffff;
-  transform: translate(0,-15%);
+  transform: translate(13%,-13%);
+  position: absolute;
+  overflow: hidden;
 }
 .group3-1{
   border-bottom: 1px solid #ff6900;
@@ -63,12 +78,12 @@
   color: #000000;
 }
 .price{
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   background-color: #ff6900;
-  border-radius: 30px;
+  border-radius: 20px;
   font-family: Cabin;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: bold;
   color: #ffffff;
 }
@@ -81,39 +96,56 @@
   margin: 10px 0 20px 0;
   overflow: hidden;
   padding: 5px;
+  text-align: center;
 }
 .bold{
   font-weight: bold;
+  width: 100%;
+  padding: 0 0 1% 0;
+}
+.center{
+  width: 100%;
+  padding: 0 0 1% 0;
 }
 .image label:hover{
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   font-weight: bold;
 }
+.group2-img{
+  width: 100%;
+}
 .allnop{
   margin: 10px;
 }
-.nop{  
-  height: 40px;
+.number{
+  width: 100%;
   background-color: #f1f1f1;
   text-align: center;
-  padding: 8px 15px;
 }
 .sub{
-  opacity: 0.52;
+  width: 100%;
+  opacity: 0.8;
+  background-color: #cbcbcb;
+  color: #000000;
   border-radius: 5px 0 0 5px;
-  background-color: #4d9dff;
-  color: #ffffff;
+  padding: 0 15px;
+  text-align: center;
 }
 .plus{
-  border-radius: 0 5px 5px 0;
-  background-color: #4d9dff;
+  background-color: #000000;
   color: #ffffff;
+  border-radius: 0 5px 5px 0;
+  width: 100%;
+  padding: 0 15px;
+  text-align: center;
+  transform: translate(-100%,0);
 }
 .date{
   border: 1px solid #ff6900;
+  width: 100%;
 }
 .month{
-  height: 38px;
+  height: 30px;
   text-align: center;
   background-color: #f1f1f1;
   padding: 7px 15px;
@@ -121,34 +153,39 @@
   transform: translate(9%,0);
   margin: 20px 0;
 }
-.cusor{
-  border-radius: 15px;
+.next{
+  border-radius: 50%;
   background-color: #00379c;
   color: #ffffff;
-  height: 30px;
-  margin-top: -4px
+  width: 100%;
+  padding: 1%;
+  transform: translate(100%,-25%);
 }
-.center{
-  padding: 3px 0;
+.prev{
+  border-radius: 50%;
+  background-color: #00379c;
+  color: #ffffff;
+  width: 100%;
+  padding: 1%;
+  transform: translate(-100%,-25%);
 }
-.day{
-  width: 40px;
-  height: 40px;
-  background-color: #f1f1f1;
-  border-radius: 20px;
-  padding: 10px 0 0 0;
-  margin: 10px 0 0 0;
+.content2{
+  font-family: Cabin;
+  font-size: 1vw;
+  color: #000000;
+  transform: translate(10%,-10%);
 }
+.date-day{
+  width: 100%;
+} 
 .day-last{
-  width: 40px;
-  height: 40px;
-  background-color: #f1f1f1;
-  border-radius: 20px;
-  padding: 10px 0 0 0;
+  width: 100%;
+  padding: 8px;
   margin: 10px 0 20px 0;
+  text-align: center;
 }
 .btn{
-  width: 363px;
+  width: 50%;
   height: 44px;
   border-radius: 3px;
   background-color: #ff6900;
@@ -157,41 +194,35 @@
   font-weight: bold;
   text-align: center;
   color: var(--white);
-  margin: 50px 0 50px 375px;
+  margin: 2vw 0 2vw 31vw;
 }
 .container-group4{
   color: #ffffff;
   width: 98%;
   margin-left: 11px;
-  margin-top: -60px;
 }
 .group4-bg{
   background-color: #000000;
 }
 .big-content4{
-  width: 200px;
-  height: 28px;
   font-family: YesevaOne;
   font-size: 24px;
   margin-top: 50px;
 }
 .small-content4{
   color: #cfcfcf;
-  width: 260px;
   font-family: Cabin;
   font-size: 14px;
   margin:20px 0;
 }
 .small-content4-2{
   color: #cfcfcf;
-  width: 260px;
   font-family: Cabin;
   font-size: 14px;
   margin:20px 0 -10px 0;
 }
 .container-group4 input{
-  width: 363px;
-  height: 44px;
+  width: 100%;
   border-radius: 3px;
   border: solid 1px #979797;
   background-color: #000000;
@@ -201,8 +232,7 @@
   color: #ffffff;
 }
 .btn4{
-  width: 363px;
-  height: 44px;
+  width: 100%;
   border-radius: 3px;
   background-color: #ff6900;
   margin: 25px 0 50px 0;

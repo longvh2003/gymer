@@ -104,6 +104,8 @@
   text-align: center;
   color: var(--white);
   transform: translate(250%,-30%);
+  border-radius: 10px;
+  border:none;
 }
 .container-group3{
   color: #ffffff;

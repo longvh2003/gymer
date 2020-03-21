@@ -60,6 +60,9 @@
   margin:0 0 35px 0;
   padding-top: 20px;
 }
+.search{
+  margin-bottom: 3vw;
+}
 .group2-select{
   width: 100%;
   border-radius: 5px;
@@ -76,94 +79,104 @@
   margin-top: -3px;
 }
 .group3{
-  margin: 50px 0 -30px 0;
+  margin-bottom: 10px;
 }
 .group3-img{
   width: 100%;
 }
-.reangle{
-  overflow: hidden;
-  height: 16vw;
-}
-.group3-btn{
+.btn{
   background-color: #00379c;
   color: #ffffff;
-  width: 25%;
-  height: auto;
   font-family: Cabin;
-  font-size: 16px;
+  font-size: 1vw;
   font-weight: bold;
   text-align: center;
 }
 .big-content2{
   font-family: Cabin;
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-weight: bold;
   line-height: 1.6;
   color: #000000;
-  margin: 10px 0;
+  margin: 1.5vw 0;
+}
+.small-content{
+  font-family: Cabin;
+  font-size: 1vw;
+  line-height: 1.71;
+  text-align: center;
+  color: #464646;
+  margin-bottom: 10px;
 }
 .small-content2{
   font-family: Cabin;
   font-size: 1vw;
   line-height: 1.71;
   color: #464646;
-  margin-top: 10px;
+  margin-top: 1.5vw;
+}
+.container-price{
+  transform: translate(20%,50%);
 }
 .price{
   font-family: Cabin;
-  font-size: 20px;
+  font-size: 1.5vw;
   font-weight: bold;
   color: #ff6900;
 }
 .detail{
-  border-radius: 18px;
+  font-family: Cabin;
+  font-size: 1.5vw;
+  border-radius: 1vw;
   border: solid 1px #ff6900;
-  background:none ;
+  background-color: #ffffff;
   color: #ff6900;
+  transform: translate(-20%,0);
 }
 .container-group4{
-  margin: 0 0 0 12px;
   color: #ffffff;
   width: 98%;
+  margin: 2vw 0 0 11px;
 }
 .group4-bg{
   background-color: #000000;
 }
 .big-content4{
   font-family: YesevaOne;
-  font-size: 24px;
-  margin-top: 50px;
+  font-size: 2vw;
+  margin-top: 4vw;
 }
 .small-content4{
   color: #cfcfcf;
   font-family: Cabin;
-  font-size: 14px;
-  margin:20px 0;
+  font-size: 1vw;
+  margin:1.5vw 0;
 }
 .small-content4-2{
   color: #cfcfcf;
   font-family: Cabin;
-  font-size: 14px;
-  margin:20px 0 -10px 0;
+  font-size: 1vw;
+  margin:1.5vw 0 -1vw 0;
 }
 .container-group4 input{
+  width: 100%;
   border-radius: 3px;
   border: solid 1px #979797;
   background-color: #000000;
   padding: 5px;
   font-size: 10px;
-  margin-top: 25px;
-  width: 100%;
+  margin-top: 1.5vw;
+  color: #ffffff;
 }
 .btn4{
   width: 100%;
   border-radius: 3px;
   background-color: #ff6900;
-  margin: 25px 0 50px 0;
+  margin: 1.5vw 0 3vw 0;
   border:1px solid #000000;
   color: #ffffff;
   text-align: center;
+  font-size: 2vw;
 }
 .modal {
   display: none; 

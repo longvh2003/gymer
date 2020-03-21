@@ -110,27 +110,27 @@
 .container-group3{
   color: #ffffff;
   width: 98%;
-  margin-left: 11px;
+  margin: 2vw 0 0 11px;
 }
 .group3-bg{
   background-color: #000000;
 }
 .big-content3{
   font-family: YesevaOne;
-  font-size: 24px;
-  margin-top: 50px;
+  font-size: 2vw;
+  margin-top: 4vw;
 }
 .small-content3{
   color: #cfcfcf;
   font-family: Cabin;
-  font-size: 14px;
-  margin:20px 0;
+  font-size: 1vw;
+  margin:1.5vw 0;
 }
 .small-content3-2{
   color: #cfcfcf;
   font-family: Cabin;
-  font-size: 14px;
-  margin:20px 0 -10px 0;
+  font-size: 1vw;
+  margin:1.5vw 0 -1vw 0;
 }
 .container-group3 input{
   width: 100%;
@@ -139,15 +139,16 @@
   background-color: #000000;
   padding: 5px;
   font-size: 10px;
-  margin-top: 25px;
+  margin-top: 1.5vw;
   color: #ffffff;
 }
 .btn3{
   width: 100%;
   border-radius: 3px;
   background-color: #ff6900;
-  margin: 25px 0 50px 0;
+  margin: 1.5vw 0 3vw 0;
   border:1px solid #000000;
   color: #ffffff;
   text-align: center;
+  font-size: 2vw;
 }

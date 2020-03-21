@@ -57,7 +57,6 @@
   background-color: #ffffff;
   transform: translate(13%,-13%);
   position: absolute;
-  overflow: hidden;
 }
 .group3-1{
   border-bottom: 1px solid #ff6900;
@@ -186,11 +185,11 @@
 }
 .btn{
   width: 50%;
-  height: 44px;
-  border-radius: 3px;
+  height: auto;
+  border-radius: 0.5vw;
   background-color: #ff6900;
   font-family: Cabin;
-  font-size: 16px;
+  font-size: 1.5vw;
   font-weight: bold;
   text-align: center;
   color: var(--white);
@@ -199,27 +198,27 @@
 .container-group4{
   color: #ffffff;
   width: 98%;
-  margin-left: 11px;
+  margin: 0 0 0 11px;
 }
 .group4-bg{
   background-color: #000000;
 }
 .big-content4{
   font-family: YesevaOne;
-  font-size: 24px;
-  margin-top: 50px;
+  font-size: 2vw;
+  margin-top: 4vw;
 }
 .small-content4{
   color: #cfcfcf;
   font-family: Cabin;
-  font-size: 14px;
-  margin:20px 0;
+  font-size: 1vw;
+  margin:1.5vw 0;
 }
 .small-content4-2{
   color: #cfcfcf;
   font-family: Cabin;
-  font-size: 14px;
-  margin:20px 0 -10px 0;
+  font-size: 1vw;
+  margin:1.5vw 0 -1vw 0;
 }
 .container-group4 input{
   width: 100%;
@@ -228,15 +227,16 @@
   background-color: #000000;
   padding: 5px;
   font-size: 10px;
-  margin-top: 25px;
+  margin-top: 1.5vw;
   color: #ffffff;
 }
 .btn4{
   width: 100%;
   border-radius: 3px;
   background-color: #ff6900;
-  margin: 25px 0 50px 0;
+  margin: 1.5vw 0 3vw 0;
   border:1px solid #000000;
   color: #ffffff;
   text-align: center;
+  font-size: 2vw;
 }

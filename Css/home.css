@@ -79,15 +79,16 @@
   position: absolute;
   top: 50%;
   transform: translate(-50%,-50%);
+  font-size: 2vw;
 }
 .text1{
-  left: 14%;
+  left: 17%;
 }
 .text2{
-  left: 47%;
+  left: 50%;
 }
 .text3{
-  left: 79%;
+  left: 82%;
 }
 .group3{
   background-color: #b2bec3;
@@ -105,11 +106,14 @@
 .group4-img{
   width: 100%;
 }
+.group4-icon{
+  width: 2vw;
+}
 .btn{
   background-color: #00379c;
   color: #ffffff;
   font-family: Cabin;
-  font-size: 1vw;
+  font-size: 1.5vw;
   font-weight: bold;
   text-align: center;
 }
@@ -119,7 +123,7 @@
   font-weight: bold;
   line-height: 1.6;
   color: #000000;
-  margin: 1.5vw 0;
+  margin: 1.5vw 0 0 0;
 }
 .small-content2{
   font-family: Cabin;
@@ -129,7 +133,7 @@
   margin-top: 1.5vw;
 }
 .container-price{
-  transform: translate(20%,50%);
+  transform: translate(0,50%);
 }
 .price{
   font-family: Cabin;
@@ -154,10 +158,11 @@
 }
 .group5-theme{
   width:24%; 
-  height: 100%;
+  height: 30vw;
   border-radius: 5px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.16);
   background-color: #ffffff;
+  overflow: hidden;
 }
 .group5-img{
   width: 100%;
@@ -165,8 +170,8 @@
   border-radius: 5px;
 }
 .group5-img-2{
-  margin: 1.5vw 0;
-  width: 2.5vw;
+  margin:0 0 1.5vw 0;
+  width: 2vw;
 }
 .big-content5{
   font-family: Cabin;
@@ -238,4 +243,7 @@
   color: #ffffff;
   text-align: center;
   font-size: 2vw;
+}
+.group6-icon{
+  width: 15%;
 }

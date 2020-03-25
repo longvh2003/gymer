@@ -47,13 +47,14 @@
 .logo{
   object-fit: contain;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 45%;
+  width: 100px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
 }
 .big-content{
   font-family: Cabin;
-  font-size: 2vw;
+  font-size: 20px;
   font-weight: bold;
   line-height: 1.5;
   text-align: center;
@@ -61,7 +62,7 @@
 }
 .small-content{
   font-family: Cabin;
-  font-size: 1vw;
+  font-size: 12px;
   line-height: 1.71;
   text-align: center;
   color: #464646;
@@ -73,6 +74,33 @@
 .group2-img{
   width: 33%;
   display: inline;
+}
+.group2-1{
+  position: relative;
+}
+.group2-btn-left{
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  color: #ff6900;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+.group2-btn-right{
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+  color: #ff6900;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+.group2-1 img{
+  width: 100%;
+  height: 400px;
 }
 .text{
   color: #ffffff;
@@ -156,9 +184,12 @@
   text-align: center;
   color: #ff6900;
 }
+.group5{
+  position: relative;
+}
 .group5-theme{
   width:24%; 
-  height: 30vw;
+  height: 31vw;
   border-radius: 5px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.16);
   background-color: #ffffff;
@@ -189,15 +220,16 @@
   margin: 1vw 0;
 }
 .btn-slide{
+  position: absolute;
   width: 30px;
   height: 30px;
   color: #ff6900;
   background-color: #ffffff;
   border-radius: 15px;
-  transform: translate(0%,450%);
+  top: 50%;
 }
 .right{
-  transform: translate(20%,450%);
+  right: 0;
 }
 .container-group6{
   color: #ffffff;
